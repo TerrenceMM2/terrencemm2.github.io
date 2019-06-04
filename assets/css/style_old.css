@@ -1,0 +1,62 @@
+body {
+    background-image: url("../images/grunge_wall.png");
+}
+
+h1 {
+    background-color: #4aaaa5;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+a {
+    color: #666;
+    transition: color ease .1s;
+}
+
+a:hover {
+    color: #4aaaa5;
+    text-decoration: none;
+    transition: color ease .1s;
+}
+
+/* https://bootstrapcreative.com/can-adjust-text-size-bootstrap-responsive-design/ */
+/* Option #2 */
+.text-responsive {
+    font-size: calc(100% + 1vw + 1vh); /* https://css-tricks.com/viewport-sized-typography/ */
+}
+
+.caption {
+    top: 75%;
+    left: 0;
+    padding: 0px 15px;
+}
+
+.caption > p {
+    background-color: #4aaaa5;
+}
+
+.carousel-caption h5 {
+    background-color: #4aaaa5;
+    color: #FFF;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: #FFF;
+}
+
+.btn:hover {
+    color: #4aaaa5;
+    background-color: #FFF;
+    border: solid 1px #4aaaa5;
+}
+
+footer {
+    border-top: solid 8px #4aaaa5;
+}
