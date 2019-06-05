@@ -89,6 +89,7 @@ a:hover {
 }
 
 /* Underline From Left */
+/* Source: https://ianlunn.github.io/Hover/ */
 .hvr-underline-from-left {
     display: inline-block;
     vertical-align: middle;
@@ -146,9 +147,17 @@ footer {
 /* ABOUT */
 #bio-pic {
     border-radius: 5px;
+    filter: grayscale(100%);
+    transition: all 0.25s ease-out;
+}
+
+#bio-pic:hover {
+    filter: initial;
+    transition: all 0.25s ease-out;
 }
 
 /* Rotate */
+/* Source: https://ianlunn.github.io/Hover/ */
 .hvr-rotate {
     display: inline-block;
     vertical-align: middle;
@@ -210,6 +219,7 @@ img:hover {
 }
 
 /* Grow Shadow */
+/* Source: https://ianlunn.github.io/Hover/ */
 .hvr-grow-shadow {
     display: inline-block;
     vertical-align: middle;
@@ -304,6 +314,10 @@ img:hover {
         margin: 0;
         padding: 0;
         font-size: 1rem;
+    }
+
+    .hvr-underline-from-left:before {
+        height: 0px;
     }
 
     .carousel-item > img {
