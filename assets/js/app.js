@@ -2,7 +2,7 @@ $(document).ready(function() {
     
     $("#submit").on("click", function() {
         console.log("click");
-        event.preventDefault();
+        // event.preventDefault();
         $(".modal").modal("show");
         $(".form-control").val("");
     });
