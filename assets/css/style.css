@@ -1,4 +1,8 @@
 /* ALL PAGES */
+html {
+    overflow-y: overlay;
+}
+
 body {
     background-image: linear-gradient(to right, #343a40, #41484f, #4f575e, #5d666d, #6c757d);
 }
