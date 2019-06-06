@@ -76,13 +76,15 @@ a:hover {
 }
 
 #content {
-    margin-top: 2vh;
+    margin-top: 1%;
     padding: 0px;
     margin-left: 25%;
-    padding-right: 5rem;
+    padding-right: 5%;
 }
 
-.col- .row {
+.col- 
+
+.row {
     height: 100vh;
     margin: 0px !important;
 }
@@ -135,7 +137,7 @@ footer {
 }
 
 ::-webkit-scrollbar {
-    width: 12px;
+    width: 10px;
 }
 
 ::-webkit-scrollbar-track {
@@ -244,10 +246,6 @@ img:hover {
     transform: scale(1.1);
 }
 
-.modal {
-    color: #333;
-}
-
 .icon-link {
     color: #333;
     transition: all 0.25s ease-out;
@@ -294,6 +292,7 @@ img:hover {
 
     #nav {
         position: initial;
+        height: initial;
     }
 
     #bio-pic {
@@ -308,10 +307,6 @@ img:hover {
 
     .nav {
         margin-top: 0;
-    }
-
-    #nav {
-        height: initial;
     }
 
     .nav-item {
