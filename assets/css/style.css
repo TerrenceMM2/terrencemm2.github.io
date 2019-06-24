@@ -4,6 +4,8 @@ html {
 }
 
 body {
+    width: 100vw;
+    overflow-x: hidden;
     background-image: linear-gradient(to right, #343a40, #41484f, #4f575e, #5d666d, #6c757d);
 }
 
@@ -75,20 +77,19 @@ a:hover {
     position: fixed;
 }
 
-.content {
+#content {
     padding: 0px;
     margin-left: 25%;
     padding-top: 1%;
     padding-right: 5%;
 }
 
-#portfolio, #contact {
+#portfolio,
+#contact {
     display: none;
 }
 
-.col- 
-
-.row {
+.col- .row {
     height: 100vh;
     margin: 0px !important;
 }
@@ -112,11 +113,10 @@ footer {
 
 ::-webkit-scrollbar {
     width: 10px;
-    display: none;
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #DDD;
+    background-color: #6c757d;
 }
 
 ::-webkit-scrollbar-thumb {
@@ -139,17 +139,52 @@ footer {
 
 /* PORTFOLIO */
 img {
-    filter: grayscale(100%);
+    filter: saturate(30%);
     transition: all 0.25s ease-out;
 }
 
 img:hover {
-    filter: initial;
+    filter: saturate(0%) blur(2px);
     transition: all 0.25s ease-out;
 }
 
 .image {
     padding: 1rem;
+}
+
+/* Hover Caption Effect */
+/* Source: https://css-tricks.com/examples/SlideinCaptions/ */
+figure {
+    margin: 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+}
+
+figcaption {
+    position: absolute;
+    background-color: var(--teal);
+    font-weight: bold;
+    color: white;
+    padding: 10px 20px;
+    opacity: 0;
+    -webkit-transition: all 0.6s ease;
+    -moz-transition: all 0.6s ease;
+    -o-transition: all 0.6s ease;
+}
+
+figure:hover figcaption {
+    opacity: 1;
+}
+
+.cap-left figcaption {
+    bottom: 0;
+    left: -40%;
+}
+
+.cap-left:hover figcaption {
+    left: 0;
+    bottom: 0;
 }
 
 /* CONTACT */
@@ -234,7 +269,7 @@ img:hover {
         filter: initial;
     }
 
-    .content {
+    #content {
         height: initial;
         margin-left: initial;
         padding-right: 0;
@@ -254,9 +289,9 @@ img:hover {
         height: 0px;
     }
 
-    .carousel-item > img {
+    .carousel-item>img {
         filter: blur(2px) grayscale(100%);
-    }   
+    }
 
     p {
         line-height: normal;
