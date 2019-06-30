@@ -1,6 +1,7 @@
 /* ALL PAGES */
 html {
-    overflow-y: overlay;
+    overflow-y: scroll;
+    overflow-x: hidden;
 }
 
 body {
