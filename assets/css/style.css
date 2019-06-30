@@ -9,6 +9,10 @@ body {
     background-image: linear-gradient(to right, #343a40, #41484f, #4f575e, #5d666d, #6c757d);
 }
 
+body:hover {
+    cursor: default;
+}
+
 .wrapper {
     color: #DDD;
     font-family: 'Cutive Mono', monospace;
@@ -71,13 +75,17 @@ a:hover {
     padding: 0;
 }
 
+.nav-link:hover, #logo:hover, #logo-name:hover {
+    cursor: pointer;
+}
+
 #nav {
     height: 100vh;
     padding: 0px;
     position: fixed;
 }
 
-#content {
+.content {
     padding: 0px;
     margin-left: 25%;
     padding-top: 1%;
@@ -269,7 +277,7 @@ figure:hover figcaption {
         filter: initial;
     }
 
-    #content {
+    .content {
         height: initial;
         margin-left: initial;
         padding-right: 0;
