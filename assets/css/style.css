@@ -1,4 +1,6 @@
 /* ALL PAGES */
+/* @import url("fonts.css"); */
+
 html {
     overflow-y: scroll;
     overflow-x: hidden;
@@ -263,7 +265,6 @@ figure:hover figcaption {
 
     h5 {
         background-color: var(--teal);
-        border-radius: 5px;
         color: #DDD;
         font-weight: bold;
         padding: .5rem;
