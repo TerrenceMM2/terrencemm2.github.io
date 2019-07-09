@@ -4,7 +4,8 @@ $(document).ready(function () {
         $("#about").show();
         $("#portfolio").hide();
         $("#contact").hide();
-        if ($(window).width() < 415) {
+        if (screen.width < 414) {
+            $("footer").removeClass("position-absolute");
             $("footer").addClass("position-relative");
         }
     });
@@ -13,8 +14,13 @@ $(document).ready(function () {
         $("#portfolio").show();
         $("#about").hide();
         $("#contact").hide();
-        if ($(window).width() < 415) {
+        if (screen.width < 414 && screen.height < 630) {
             $("footer").removeClass("position-relative");
+            $("footer").addClass("position-absolute");
+        }
+        if (screen.width < 414 && screen.height > 630) {
+            $("footer").removeClass("position-relative");
+            $("footer").addClass("position-absolute");
         }
     });
 
@@ -22,8 +28,13 @@ $(document).ready(function () {
         $("#contact").show();
         $("#portfolio").hide();
         $("#about").hide();
-        if ($(window).width() < 415 && $(window).width() > 361) {
+        if (screen.width < 414 && screen.height < 630) {
+            $("footer").removeClass("position-absolute");
+            $("footer").addClass("position-relative");
+        }
+        if (screen.width < 414 && screen.height > 630) {
             $("footer").removeClass("position-relative");
+            $("footer").addClass("position-absolute");
         }
     });
 
@@ -31,7 +42,8 @@ $(document).ready(function () {
         $("#about").show();
         $("#portfolio").hide();
         $("#contact").hide();
-        if ($(window).width() < 415) {
+        if (screen.width < 414) {
+            $("footer").removeClass("position-absolute");
             $("footer").addClass("position-relative");
         }
     });
@@ -40,7 +52,8 @@ $(document).ready(function () {
         $("#about").show();
         $("#portfolio").hide();
         $("#contact").hide();
-        if ($(window).width() < 415) {
+        if (screen.width < 414) {
+            $("footer").removeClass("position-absolute");
             $("footer").addClass("position-relative");
         }
     });
