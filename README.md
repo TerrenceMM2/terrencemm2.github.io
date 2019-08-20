@@ -13,5 +13,5 @@ Live Link: https://terrencemm2.github.io
 ## Contact  
 - Name: Terrence Mahnken
 - E-mail: terrencemm2@gmail.com
-- LinkedIn: linkedin.com/in/terrencemahnken/
+- LinkedIn: [linkedin.com/in/terrencemahnken/](https://www.linkedin.com/in/terrencemahnken/)
 - Twitter: [@terrencemahnken](https://twitter.com/TerrenceMahnken)
