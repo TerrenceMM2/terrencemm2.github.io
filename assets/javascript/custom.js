@@ -5,6 +5,7 @@ $(document).ready(function () {
         $("#portfolio").hide();
         $("#contact").hide();
         $("#skills").hide();
+        $("#resume").hide();
     });
 
     $("#portfolioLink").on("click", function () {
@@ -12,6 +13,7 @@ $(document).ready(function () {
         $("#about").hide();
         $("#contact").hide();
         $("#skills").hide();
+        $("#resume").hide();
     });
 
     $("#skillsLink").on("click", function () {
@@ -19,6 +21,15 @@ $(document).ready(function () {
         $("#contact").hide();
         $("#portfolio").hide();
         $("#about").hide();
+        $("#resume").hide();
+    });
+
+    $("#resumeLink").on("click", function () {
+        $("#resume").show();
+        $("#contact").hide();
+        $("#portfolio").hide();
+        $("#about").hide();
+        $("#skills").hide();
     });
 
     $("#contactLink").on("click", function () {
@@ -26,6 +37,7 @@ $(document).ready(function () {
         $("#portfolio").hide();
         $("#about").hide();
         $("#skills").hide();
+        $("#resume").hide();
     });
 
     $("#logo").on("click", function () {
@@ -33,6 +45,7 @@ $(document).ready(function () {
         $("#portfolio").hide();
         $("#contact").hide();
         $("#skills").hide();
+        $("#resume").hide();
     });
 
     $("#logo-name").on("click", function () {
@@ -40,6 +53,7 @@ $(document).ready(function () {
         $("#portfolio").hide();
         $("#contact").hide();
         $("#skills").hide();
+        $("#resume").hide();
     });
 
 

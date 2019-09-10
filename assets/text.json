@@ -1,0 +1,32 @@
+{
+    "name": "Terrence Mahnken",
+    "age": 31,
+    "hometown": "Punta Gorda, FL",
+    "residence": "Mount Juliet, FL",
+    "family": [
+        {
+            "name": "Helene",
+            "role": "wife",
+            "yearsTogether": 12
+        },
+        {
+            "name": "Everett",
+            "role": "son",
+            "yearsTogether": 5
+        },
+        {
+            "name": "Alfie",
+            "role": "dog",
+            "type": "Mix - Sheltie/Corgi",
+            "age": 6
+        },
+        {
+            "name": "Hunter",
+            "role": "dog",
+            "type": "Golden-Doodle",
+            "age": 3
+        }
+    ],
+    "hobbies": ["family time", "reading", "video games", "home projects"],
+    "yearsInIT": 5
+}

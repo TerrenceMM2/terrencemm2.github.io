@@ -42,7 +42,7 @@ h2 {
     color: #DDD;
 }
 
-h3 {
+h3, h4 {
     color: var(--teal);
 }
 
@@ -97,7 +97,9 @@ a:hover {
 }
 
 #portfolio,
-#contact {
+#contact,
+#skills,
+#resume {
     display: none;
 }
 
@@ -147,6 +149,10 @@ footer {
 #bio-pic:hover {
     filter: initial;
     transition: all 0.25s ease-out;
+}
+
+pre {
+    color: #DDD;
 }
 
 /* PORTFOLIO */
@@ -244,6 +250,9 @@ figcaption {
 
     #bio-pic {
         filter: initial;
+        float: none!important;
+        display: block;
+        margin: 0 auto !important;
     }
 
     .content {

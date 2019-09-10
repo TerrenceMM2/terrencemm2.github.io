@@ -33,7 +33,7 @@
 
                     <div class="row">
                         <ul class="nav navbar text-center col-md-auto">
-                            <li class="col-6 col-md-12 nav-item">
+                            <li class="col-12 col-md-12 nav-item">
                                 <div class="hvr-underline-from-left nav-link" id="aboutLink">About</div>
                             </li>
                             <li class="col-6 col-md-12 nav-item">
@@ -41,6 +41,9 @@
                             </li>
                             <li class="col-6 col-md-12 nav-item">
                                 <div class="hvr-underline-from-left nav-link" id="skillsLink">Skills</div>
+                            </li>
+                            <li class="col-6 col-md-12 nav-item">
+                                <div class="hvr-underline-from-left nav-link" id="resumeLink">Resume</div>
                             </li>
                             <li class="col-6 col-md-12 nav-item">
                                 <div class="hvr-underline-from-left nav-link" id="contactLink">Contact</div>
@@ -63,9 +66,60 @@
                     <hr>
 
                     <div>
-                        <img id="bio-pic" class="col-6 col-auto img-fluid float-left mr-3 mb-3 p-0 hvr-rotate"
-                            src="assets/images/bio_pic.jpg" alt="Headshot of Terrence Mahnken" />
-                        <p>
+                        <!-- <img id="bio-pic" class="col-6 col-auto img-fluid float-right mr-3 mb-3 p-0 hvr-rotate"
+                            src="assets/images/bio_pic.jpg" alt="Headshot of Terrence Mahnken" /> -->
+                        <pre>
+    {
+        "name": "Terrence Mahnken",
+        "age": 31,
+        "hometown": "Punta Gorda, FL",
+        "residence": "Mount Juliet, FL",
+        "education": [
+            {
+                "institution" : "Johnson University",
+                "degree" : "Bachelor's of Science",
+                "programOfStudy" : "Music",
+                "majors" : ["Bible", "Church Music", "Worship Ministry"],
+                "minor" : ["Media Production"],
+                "distinction" : "Magna Cum Laude",
+                "yearAwarded" : 2010
+            },
+            {
+                "institution" : "Vanderbilt University",
+                "certificate" : "Certificate of Completion",
+                "programOfStudy" : "Full-Stack Web Development",
+                "yearAwarded" : 2019
+            }
+        ],
+        "family": [
+            {
+                "name": "Helene",
+                "role": "wife",
+                "yearsTogether": 12
+            },
+            {
+                "name": "Everett",
+                "role": "son",
+                "age": 5
+            },
+            {
+                "name": "Alfie",
+                "role": "dog",
+                "type": "Mix - Sheltie/Corgi",
+                "age": 6
+            },
+            {
+                "name": "Hunter",
+                "role": "dog",
+                "type": "Golden-Doodle",
+                "age": 3
+            }
+        ],
+        "hobbies": ["family time", "reading", "video games", "home projects"],
+        "yearsInIT": 5
+    };
+                        </pre>
+                        <!-- <p>
                             Heyo! Thanks for taking the time to visit my site. My name is Terrence Mahnken, residing
                             in Mount Juliet, TN, working in Nashville, TN, and originally from Florida. Currently, I
                             work as a Senior Consultant at the <a href="https://www.tbr.edu" target="_blank">Tennessee
@@ -94,7 +148,7 @@
                                 target="_blank">LinkedIn</a><a class="px-2 border-right border-left border-muted"
                                 href="https://twitter.com/TerrenceMahnken" target="_blank">Twitter</a><a class="pl-2"
                                 href="https://github.com/TerrenceMM2" target="_blank">GitHub</a>
-                        </p>
+                        </p> -->
                     </div>
                 </div>
             </main>
@@ -105,46 +159,99 @@
 
                     <hr>
 
-                    <div class="row d-flex">
-                        <div class="col-lg-6 col-md-6 col-sm-12 image">
-                            <figure class="imghvr-shutter-in-out-diag-2">
-                                <img class="img-fluid" src="assets/images/pinpoint.png" alt="PinPoint Application">
-                                <figcaption>
-                                    PinPoint
-                                    </br>
-                                    </br>
-                                    <span class="subcaption">Neighborhood research app for current and prospective
-                                        college students.</span>
-                                    </br>
-                                    </br>
-                                    <span class="project-link"><a href="https://heyimhibi.github.io/PinPoint/"
-                                            target="_blank"><i class="fas fa-map-pin"></i> View Application</a></span> |
-                                    <span class="project-link"><a href="https://github.com/TerrenceMM2/PinPoint"
-                                            target="_blank">View Code <i class="fab fa-github"></i></a></span>
-                                </figcaption>
-                            </figure>
-                            <a href="https://heyimhibi.github.io/PinPoint/" target="_blank"></a>
+                    <div class="container">
+                        <h4>Group Projects</h4>
+
+                        <hr>
+
+                        <div class="row d-flex">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image">
+                                <figure class="imghvr-shutter-in-out-diag-2">
+                                    <img class="img-fluid" src="assets/images/pinpoint.png" alt="PinPoint Application Screenshot">
+                                    <figcaption>
+                                        PinPoint
+                                        </br>
+                                        </br>
+                                        <span class="subcaption">Neighborhood research app for current and prospective
+                                            college students.</span>
+                                        </br>
+                                        </br>
+                                        <span class="project-link"><a href="https://heyimhibi.github.io/PinPoint/"
+                                                target="_blank"><i class="fas fa-map-pin"></i> View
+                                                Application</a></span> |
+                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/PinPoint"
+                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 image">
+                                <figure class="imghvr-shutter-in-out-diag-2">
+                                    <img class="img-fluid" src="assets/images/terra-mater.png"
+                                        alt="Terra Mater Application Screenshot">
+                                    <figcaption>
+                                        Terra Mater
+                                        </br>
+                                        </br>
+                                        <span class="subcaption">Crowd-sourced database for plant information and
+                                            care.</span>
+                                        </br>
+                                        </br>
+                                        <span class="project-link"><a href="https://terramater.herokuapp.com/"
+                                                target="_blank"><i class="fas fa-seedling"></i> View
+                                                Application</a></span>
+                                        |
+                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/terra-mater"
+                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
 
-                        <div class="col-lg-6 col-md-6 col-sm-12 image">
-                            <figure class="imghvr-shutter-in-out-diag-2">
-                                <img class="img-fluid" src="assets/images/terra-mater.png"
-                                    alt="Terra Mater Application">
-                                <figcaption>
-                                    Terra Mater
-                                    </br>
-                                    </br>
-                                    <span class="subcaption">Crowd-sourced database for plant information and
-                                        care.</span>
-                                    </br>
-                                    </br>
-                                    <span class="project-link"><a href="https://terramater.herokuapp.com/"
-                                            target="_blank"><i class="fas fa-seedling"></i> View Application</a></span>
-                                    |
-                                    <span class="project-link"><a href="https://github.com/TerrenceMM2/terra-mater"
-                                            target="_blank">View Code <i class="fab fa-github"></i></a></span>
-                                </figcaption>
-                            </figure>
+                        <h4>Individual Projects</h4>
+
+                        <hr>
+
+                        <div class="row d-flex">
+                            <div class="col-lg-6 col-md-6 col-sm-12 image">
+                                <figure class="imghvr-shutter-in-out-diag-2">
+                                    <img class="img-fluid" src="assets/images/crystal.png" alt="Crystal Quest Screenshot">
+                                    <figcaption>
+                                        Crystal Quest
+                                        </br>
+                                        </br>
+                                        <span class="subcaption">Countdown memory game.</span>
+                                        </br>
+                                        </br>
+                                        <span class="project-link"><a href="https://terrencemm2.github.io/crystal-game/"
+                                                target="_blank"><i class="fas fa-gem"></i> View
+                                                Application</a></span> |
+                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/crystal-game"
+                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                    </figcaption>
+                                </figure>
+                            </div>
+
+                            <div class="col-lg-6 col-md-6 col-sm-12 image">
+                                <figure class="imghvr-shutter-in-out-diag-2">
+                                    <img class="img-fluid" src="assets/images/memory.png"
+                                        alt="Mario Memory Screenshot">
+                                    <figcaption>
+                                        Mario Memory
+                                        </br>
+                                        </br>
+                                        <span class="subcaption">Memory game featuring Nintendo's all-star cast.</span>
+                                        </br>
+                                        </br>
+                                        <span class="project-link"><a href="https://terrencemm2.github.io/coursework15-memory-game/"
+                                                target="_blank"><i class="fas fa-gamepad"></i> View
+                                                Application</a></span>
+                                        |
+                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/coursework15-memory-game"
+                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                    </figcaption>
+                                </figure>
+                            </div>
                         </div>
 
                     </div>
@@ -154,6 +261,15 @@
             <main id="skills" class="content col-12 col-md-9 animated fadeIn faster">
                 <div class="container">
                     <h3>Technical Skills</h3>
+
+                    <hr>
+
+                </div>
+            </main>
+
+            <main id="resume" class="content col-12 col-md-9 animated fadeIn faster">
+                <div class="container">
+                    <h3>Resume</h3>
 
                     <hr>
 
