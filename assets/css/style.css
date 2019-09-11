@@ -199,20 +199,30 @@ img {
     background-color: var(--teal);
 }
 
+[class^=imghvr-] figcaption {
+    padding: 10px;
+}
+
 figcaption {
     text-align: center;
+    font-size: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+figcaption h4 {
     font-weight: bold;
-    font-size: 1.25rem;
+    font-size: 1.4vw;
 }
 
 .subcaption {
-    font-size: initial;
+    display: block;
     font-weight: initial;
     line-height: initial;
 }
 
 .project-link > a {
-    font-size: initial;
     font-weight: initial;
     line-height: initial;
     position: static;
@@ -234,7 +244,7 @@ figcaption {
 }
 
 .skill-icon {
-    height: 80px;
+    height: 50px;
     margin: .25rem 1rem 3.5rem 1rem;
 }
 
