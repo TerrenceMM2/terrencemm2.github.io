@@ -158,6 +158,7 @@ pre {
 /* PORTFOLIO */
 img {
     filter: saturate(0%);
+    transition: all 0.25s ease-out;
 }
 
 .image {
@@ -193,6 +194,44 @@ figcaption {
     line-height: initial;
     position: static;
     color: #FFF;
+}
+
+/* SKILLS */
+.skillContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#invert {
+    filter: invert(1) saturate(0);
+}
+
+#invert:hover {
+    filter: invert(0) saturate(1);
+}
+
+.skill-icon {
+    height: 80px;
+    margin: 2rem 1rem 3.5rem 1rem;
+}
+
+.skill-icon:hover {
+    filter: saturate(100%);
+    transition: all 0.25s ease-out;
+}
+
+.popover-body {
+    color: #FFF;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.popover {
+    background-color: transparent;
+    border-color: var(--teal);
+}
+
+.arrow::after, .bs-popover-bottom .arrow::after {
+    border-bottom-color: var(--teal) !important;
 }
 
 /* CONTACT */

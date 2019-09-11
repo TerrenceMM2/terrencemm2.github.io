@@ -56,5 +56,8 @@ $(document).ready(function () {
         $("#resume").hide();
     });
 
+    $(function () {
+        $('[data-toggle="popover"]').popover()
+      })
 
 });
