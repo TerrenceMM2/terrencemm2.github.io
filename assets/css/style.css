@@ -42,7 +42,7 @@ h2 {
     color: #DDD;
 }
 
-h3, h4 {
+h3, h4, h5 {
     color: var(--teal);
 }
 
@@ -214,6 +214,7 @@ figcaption {
 figcaption h4 {
     font-weight: bold;
     font-size: 1.4vw;
+    color: initial;
 }
 
 .subcaption {
@@ -269,6 +270,15 @@ figcaption h4 {
 
 .bs-popover-right .arrow::after {
     border-right-color: var(--teal) !important;
+}
+
+/* RESUME */
+#resume-container p {
+    margin: 0;
+}
+
+.resume-block {
+    margin-bottom: 1rem;
 }
 
 /* CONTACT */
