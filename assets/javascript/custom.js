@@ -64,7 +64,9 @@ $(document).ready(function () {
       });
 
     $('#expand-all').on('click', function () {
-        $('#accordion .collapse').collapse('toggle');
+        if ($("#accordion .collapse").attr("class") === "collapse show") {
+            $('#accordion .collapse').collapse('show');
+        }
     });
 
     $(function () {
