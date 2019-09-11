@@ -56,8 +56,19 @@ $(document).ready(function () {
         $("#resume").hide();
     });
 
+    $('pre[rel=popover]').popover({
+        html: true,
+        trigger: 'hover',
+        placement: 'right',
+        content: function(){return '<img id="bio-pic" src="'+$(this).data('img') + '" />';}
+      });
+
+    $('#expand-all').on('click', function () {
+        $('#accordion .collapse').collapse('toggle');
+    });
+
     $(function () {
         $('[data-toggle="popover"]').popover()
-      })
+    })
 
 });

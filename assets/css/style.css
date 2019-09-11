@@ -140,19 +140,42 @@ footer {
 }
 
 /* ABOUT */
-#bio-pic {
-    border-radius: 5px;
-    filter: grayscale(100%);
-    transition: all 0.25s ease-out;
+#bio-pic-text {
+    color: var(--teal);
 }
 
-#bio-pic:hover {
+#bio-pic {
     filter: initial;
-    transition: all 0.25s ease-out;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.accordion {
+    font-size: 18px;
+    line-height: 18px;
 }
 
 pre {
     color: #DDD;
+    margin: 0;
+    font-family: 'Cutive Mono', monospace;
+    font-size: 18px;
+    display: inline;
+}
+
+.accordion .header:before {
+    font-family: 'FontAwesome';
+    color: var(--teal); 
+    content: "\f107";
+    margin-right: 5px;
+    float: left;
+    width: 15px !important;
+}
+
+.accordion .header.collapsed:before {
+    content: "\f105";
+    color: var(--teal);
+    width: 12px;
 }
 
 /* PORTFOLIO */
@@ -230,8 +253,12 @@ figcaption {
     border-color: var(--teal);
 }
 
-.arrow::after, .bs-popover-bottom .arrow::after {
+.bs-popover-bottom .arrow::after {
     border-bottom-color: var(--teal) !important;
+}
+
+.bs-popover-right .arrow::after {
+    border-right-color: var(--teal) !important;
 }
 
 /* CONTACT */
@@ -285,13 +312,6 @@ figcaption {
     #nav {
         position: initial;
         height: initial;
-    }
-
-    #bio-pic {
-        filter: initial;
-        float: none!important;
-        display: block;
-        margin: 0 auto !important;
     }
 
     .content {

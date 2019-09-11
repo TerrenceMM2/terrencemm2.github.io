@@ -2,7 +2,24 @@
     "name": "Terrence Mahnken",
     "age": 31,
     "hometown": "Punta Gorda, FL",
-    "residence": "Mount Juliet, FL",
+    "residence": "Mount Juliet, TN",
+    "education": [
+        {
+            "institution": "Johnson University",
+            "degree": "Bachelor's of Science",
+            "programOfStudy": "Music",
+            "majors": ["Bible", "Church Music", "Worship Ministry"],
+            "minor": ["Media Production"],
+            "distinction": "Magna Cum Laude",
+            "yearAwarded": 2010
+        },
+        {
+            "institution": "Vanderbilt University",
+            "certificate": "Certificate of Completion",
+            "programOfStudy": "Full-Stack Web Development",
+            "yearAwarded": 2019
+        }
+    ],
     "family": [
         {
             "name": "Helene",
@@ -12,7 +29,7 @@
         {
             "name": "Everett",
             "role": "son",
-            "yearsTogether": 5
+            "age": 5
         },
         {
             "name": "Alfie",

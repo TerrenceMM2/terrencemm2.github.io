@@ -62,64 +62,304 @@
             <main id="about" class="content col-12 col-md-9 animated fadeIn faster">
                 <div class="container">
                     <h3>About Me</h3>
-
+                    
                     <hr>
 
                     <div>
-                        <!-- <img id="bio-pic" class="col-6 col-auto img-fluid float-right mr-3 mb-3 p-0 hvr-rotate"
+                        <h4 id="expand-all" class="float-right">Expand All</h4>
+                        <div class="accordion" id="accordion">
+                            <div>
+                                <div id="headingOne">
+                                    <div class="mb-0">
+                                        <div class="header collapsed" data-toggle="collapse" data-target="#collapseOne"
+                                            aria-expanded="true" aria-controls="collapseOne">
+                                            <pre>
+{</pre>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="collapseOne" class="collapse" aria-labelledby="headingOne"
+                                    data-parent="#accordion">
+                                    <div>
+                                        <pre>
+    "name": "Terrence Mahnken",
+    "age": 31,
+    "hometown": "Punta Gorda, FL",
+    "residence": "Mount Juliet, TN",</pre>
+                                        <div id="child1">
+                                            <div id="headingTwo">
+                                                <div class="mb-0">
+                                                    <div class="header collapsed" data-toggle="collapse"
+                                                        data-target="#collapseTwo" aria-expanded="false"
+                                                        aria-controls="collapseTwo">
+                                                        <pre>
+  "education": [</pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo"
+                                                data-parent="#child1">
+                                                <div id="child4">
+                                                    <div id="headingFour">
+                                                        <div class="mb-0">
+                                                            <div class="header collapsed" data-toggle="collapse"
+                                                                data-target="#collapseFour" aria-expanded="false"
+                                                                aria-controls="collapseFour">
+                                                                <pre>
+      {</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseFour" class="collapse"
+                                                        aria-labelledby="headingFour" data-parent="#child4">
+                                                        <div>
+                                                            <pre>
+            "institution": "Johnson University",
+            "degree": "Bachelor's of Science",
+            "programOfStudy": "Music",
+            "majors": ["Bible", "Church Music", "Worship Ministry"],
+            "minor": ["Media Production"],
+            "distinction": "Magna Cum Laude",
+            "yearAwarded": 2010</pre>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-0">
+                                                            <div class="collapsed">
+                                                                <pre>
+        },</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="child5">
+                                                    <div id="headingFive">
+                                                        <div class="mb-0">
+                                                            <div class="header collapsed" data-toggle="collapse"
+                                                                data-target="#collapseFive" aria-expanded="false"
+                                                                aria-controls="collapseFive">
+                                                                <pre>
+      {</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseFive" class="collapse"
+                                                        aria-labelledby="headingFive" data-parent="#child5">
+                                                        <div>
+                                                            <pre>
+            "institution": "Vanderbilt University",
+            "certificate": "Certificate of Completion",
+            "programOfStudy": "Full-Stack Web Development",
+            "yearAwarded": 2019</pre>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-0">
+                                                            <div class="collapsed">
+                                                                <pre>
+        },</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-0">
+                                                <div class="collapsed">
+                                                    <pre>
+    ],</pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="child2">
+                                            <div id="headingThree">
+                                                <div class="mb-0">
+                                                    <div class="header collapsed" data-toggle="collapse"
+                                                        data-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <pre>
+  "family": [</pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                data-parent="#child2">
+                                                <div id="child7">
+                                                    <div id="headingSeven">
+                                                        <div class="mb-0">
+                                                            <div class="header collapsed" data-toggle="collapse"
+                                                                data-target="#collapseSeven" aria-expanded="false"
+                                                                aria-controls="collapseSeven">
+                                                                <pre>
+      {</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseSeven" class="collapse"
+                                                        aria-labelledby="headingSeven" data-parent="#child7">
+                                                        <div>
+                                                            <pre>
+            "name": "Helene",
+            "role": "wife",
+            "yearsTogether": 12</pre>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-0">
+                                                            <div class="collapsed">
+                                                                <pre>
+        },</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="child8">
+                                                    <div id="headingEight">
+                                                        <div class="mb-0">
+                                                            <div class="header collapsed" data-toggle="collapse"
+                                                                data-target="#collapseEight" aria-expanded="false"
+                                                                aria-controls="collapseEight">
+                                                                <pre>
+      {</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseEight" class="collapse"
+                                                        aria-labelledby="headingEight" data-parent="#child8">
+                                                        <div>
+                                                            <pre>
+            "name": "Everett",
+            "role": "son",
+            "age": 5</pre>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-0">
+                                                            <div class="collapsed">
+                                                                <pre>
+        },</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="child9">
+                                                    <div id="headingNine">
+                                                        <div class="mb-0">
+                                                            <div class="header collapsed" data-toggle="collapse"
+                                                                data-target="#collapseNine" aria-expanded="false"
+                                                                aria-controls="collapseNine">
+                                                                <pre>
+      {</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseNine" class="collapse"
+                                                        aria-labelledby="headingNine" data-parent="#child9">
+                                                        <div>
+                                                            <pre>
+            "name": "Alfie",
+            "role": "dog",
+            "type": "Mix - Sheltie/Corgi",
+            "age": 6</pre>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-0">
+                                                            <div class="collapsed">
+                                                                <pre>
+        },</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div id="child10">
+                                                    <div id="headingTen">
+                                                        <div class="mb-0">
+                                                            <div class="header collapsed" data-toggle="collapse"
+                                                                data-target="#collapseTen" aria-expanded="false"
+                                                                aria-controls="collapseTen">
+                                                                <pre>
+      {</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div id="collapseTen" class="collapse" aria-labelledby="headingTen"
+                                                        data-parent="#child10">
+                                                        <div>
+                                                            <pre>
+            "name": "Hunter",
+            "role": "dog",
+            "type": "Golden-Doodle",
+            "age": 3</pre>
+                                                        </div>
+                                                    </div>
+                                                    <div>
+                                                        <div class="mb-0">
+                                                            <div class="collapsed">
+                                                                <pre>
+        },</pre>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <div class="mb-0">
+                                                <div class="collapsed">
+                                                    <pre>
+    ],</pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div id="child3">
+                                            <div id="headingThree">
+                                                <div class="mb-0">
+                                                    <div class="header collapsed" data-toggle="collapse"
+                                                        data-target="#collapseThree" aria-expanded="false"
+                                                        aria-controls="collapseThree">
+                                                        <pre>
+  "hobbies": [</pre>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree"
+                                                data-parent="#child3">
+                                                <div>
+                                                    <pre>
+        "family time",
+        "reading",
+        "video games",
+        "home projects"</pre>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <pre>
+    ],
+    "yearsInIT": 5,
+    "image" : </pre>
+                                        <pre id="bio-pic-text" rel="popover" data-toggle="popover"
+                                            data-placement="right"
+                                            data-img="assets/images/bio_pic.jpg">"./bio_pic.jpg"</pre>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div>
+                                <div class="mb-0">
+                                    <div class="collapsed">
+                                        <pre>
+  }</pre>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <img id="bio-pic" class="col-6 col-auto img-fluid float-right mr-3 mb-3 p-0 hvr-rotate"
                             src="assets/images/bio_pic.jpg" alt="Headshot of Terrence Mahnken" /> -->
-                        <pre>
-    {
-        "name": "Terrence Mahnken",
-        "age": 31,
-        "hometown": "Punta Gorda, FL",
-        "residence": "Mount Juliet, TN",
-        "education": [
-            {
-                "institution" : "Johnson University",
-                "degree" : "Bachelor's of Science",
-                "programOfStudy" : "Music",
-                "majors" : ["Bible", "Church Music", "Worship Ministry"],
-                "minor" : ["Media Production"],
-                "distinction" : "Magna Cum Laude",
-                "yearAwarded" : 2010
-            },
-            {
-                "institution" : "Vanderbilt University",
-                "certificate" : "Certificate of Completion",
-                "programOfStudy" : "Full-Stack Web Development",
-                "yearAwarded" : 2019
-            }
-        ],
-        "family": [
-            {
-                "name": "Helene",
-                "role": "wife",
-                "yearsTogether": 12
-            },
-            {
-                "name": "Everett",
-                "role": "son",
-                "age": 5
-            },
-            {
-                "name": "Alfie",
-                "role": "dog",
-                "type": "Mix - Sheltie/Corgi",
-                "age": 6
-            },
-            {
-                "name": "Hunter",
-                "role": "dog",
-                "type": "Golden-Doodle",
-                "age": 3
-            }
-        ],
-        "hobbies": ["family time", "reading", "video games", "home projects"],
-        "yearsInIT": 5
-    };
-                        </pre>
-                        <!-- <p>
+                    <!-- <p>
                             Heyo! Thanks for taking the time to visit my site. My name is Terrence Mahnken, residing
                             in Mount Juliet, TN, working in Nashville, TN, and originally from Florida. Currently, I
                             work as a Senior Consultant at the <a href="https://www.tbr.edu" target="_blank">Tennessee
@@ -149,238 +389,276 @@
                                 href="https://twitter.com/TerrenceMahnken" target="_blank">Twitter</a><a class="pl-2"
                                 href="https://github.com/TerrenceMM2" target="_blank">GitHub</a>
                         </p> -->
-                    </div>
                 </div>
-            </main>
+        </div>
+        </main>
 
-            <main id="portfolio" class="content col-12 col-md-9 animated fadeIn faster">
+        <main id="portfolio" class="content col-12 col-md-9 animated fadeIn faster">
+            <div class="container">
+                <h3>Portfolio</h3>
+
+                <hr>
+
                 <div class="container">
-                    <h3>Portfolio</h3>
+                    <h4>Group Projects</h4>
 
-                    <hr>
-
-                    <div class="container">
-                        <h4>Group Projects</h4>
-
-                        <div class="row d-flex">
-                            <div class="col-lg-6 col-md-6 col-sm-12 image">
-                                <figure class="imghvr-shutter-in-out-diag-2">
-                                    <img class="img-fluid" src="assets/images/pinpoint.png" alt="PinPoint Application Screenshot">
-                                    <figcaption>
-                                        PinPoint
-                                        </br>
-                                        </br>
-                                        <span class="subcaption">Neighborhood research app for current and prospective
-                                            college students.</span>
-                                        </br>
-                                        </br>
-                                        <span class="project-link"><a href="https://heyimhibi.github.io/PinPoint/"
-                                                target="_blank"><i class="fas fa-map-pin"></i> View
-                                                Application</a></span> |
-                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/PinPoint"
-                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 image">
-                                <figure class="imghvr-shutter-in-out-diag-2">
-                                    <img class="img-fluid" src="assets/images/terra-mater.png"
-                                        alt="Terra Mater Application Screenshot">
-                                    <figcaption>
-                                        Terra Mater
-                                        </br>
-                                        </br>
-                                        <span class="subcaption">Crowd-sourced database for plant information and
-                                            care.</span>
-                                        </br>
-                                        </br>
-                                        <span class="project-link"><a href="https://terramater.herokuapp.com/"
-                                                target="_blank"><i class="fas fa-seedling"></i> View
-                                                Application</a></span>
-                                        |
-                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/terra-mater"
-                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
-                                    </figcaption>
-                                </figure>
-                            </div>
+                    <div class="row d-flex">
+                        <div class="col-lg-6 col-md-6 col-sm-12 image">
+                            <figure class="imghvr-shutter-in-out-diag-2">
+                                <img class="img-fluid" src="assets/images/pinpoint.png"
+                                    alt="PinPoint Application Screenshot">
+                                <figcaption>
+                                    PinPoint
+                                    </br>
+                                    </br>
+                                    <span class="subcaption">Neighborhood research app for current and prospective
+                                        college students.</span>
+                                    </br>
+                                    </br>
+                                    <span class="project-link"><a href="https://heyimhibi.github.io/PinPoint/"
+                                            target="_blank"><i class="fas fa-map-pin"></i> View
+                                            Application</a></span> |
+                                    <span class="project-link"><a href="https://github.com/TerrenceMM2/PinPoint"
+                                            target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                </figcaption>
+                            </figure>
                         </div>
 
-                        <h4>Individual Projects</h4>
-
-                        <div class="row d-flex">
-                            <div class="col-lg-6 col-md-6 col-sm-12 image">
-                                <figure class="imghvr-shutter-in-out-diag-2">
-                                    <img class="img-fluid" src="assets/images/crystal.png" alt="Crystal Quest Screenshot">
-                                    <figcaption>
-                                        Crystal Quest
-                                        </br>
-                                        </br>
-                                        <span class="subcaption">Countdown memory game.</span>
-                                        </br>
-                                        </br>
-                                        <span class="project-link"><a href="https://terrencemm2.github.io/crystal-game/"
-                                                target="_blank"><i class="fas fa-gem"></i> View
-                                                Application</a></span> |
-                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/crystal-game"
-                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
-                                    </figcaption>
-                                </figure>
-                            </div>
-
-                            <div class="col-lg-6 col-md-6 col-sm-12 image">
-                                <figure class="imghvr-shutter-in-out-diag-2">
-                                    <img class="img-fluid" src="assets/images/memory.png"
-                                        alt="Mario Memory Screenshot">
-                                    <figcaption>
-                                        Mario Memory
-                                        </br>
-                                        </br>
-                                        <span class="subcaption">Memory game featuring Nintendo's all-star cast.</span>
-                                        </br>
-                                        </br>
-                                        <span class="project-link"><a href="https://terrencemm2.github.io/coursework15-memory-game/"
-                                                target="_blank"><i class="fas fa-gamepad"></i> View
-                                                Application</a></span>
-                                        |
-                                        <span class="project-link"><a href="https://github.com/TerrenceMM2/coursework15-memory-game"
-                                                target="_blank">View Code <i class="fab fa-github"></i></a></span>
-                                    </figcaption>
-                                </figure>
-                            </div>
+                        <div class="col-lg-6 col-md-6 col-sm-12 image">
+                            <figure class="imghvr-shutter-in-out-diag-2">
+                                <img class="img-fluid" src="assets/images/terra-mater.png"
+                                    alt="Terra Mater Application Screenshot">
+                                <figcaption>
+                                    Terra Mater
+                                    </br>
+                                    </br>
+                                    <span class="subcaption">Crowd-sourced database for plant information and
+                                        care.</span>
+                                    </br>
+                                    </br>
+                                    <span class="project-link"><a href="https://terramater.herokuapp.com/"
+                                            target="_blank"><i class="fas fa-seedling"></i> View
+                                            Application</a></span>
+                                    |
+                                    <span class="project-link"><a href="https://github.com/TerrenceMM2/terra-mater"
+                                            target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                </figcaption>
+                            </figure>
                         </div>
-
                     </div>
-                </div>
-            </main>
 
-            <main id="skills" class="content col-12 col-md-9 animated fadeIn faster">
-                <div class="container">
-                    <h3>Technical Skills</h3>
+                    <h4>Individual Projects</h4>
 
-                    <hr>
-
-                    <div class="container">
-                        <h4>Front-End</h4>
-                        
-                        <div class="skillContainer">
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="HTML5" data-trigger="hover" src="./assets/images/icons/html.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="CSS" data-trigger="hover" src="./assets/images/icons/css.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Bootstrap" data-trigger="hover" src="./assets/images/icons/bootstrap.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="JavaScript" data-trigger="hover" src="./assets/images/icons/js.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="jQuery" data-trigger="hover" src="./assets/images/icons/jquery.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="React" data-trigger="hover" src="./assets/images/icons/react.png"></img>
+                    <div class="row d-flex">
+                        <div class="col-lg-6 col-md-6 col-sm-12 image">
+                            <figure class="imghvr-shutter-in-out-diag-2">
+                                <img class="img-fluid" src="assets/images/crystal.png" alt="Crystal Quest Screenshot">
+                                <figcaption>
+                                    Crystal Quest
+                                    </br>
+                                    </br>
+                                    <span class="subcaption">Countdown memory game.</span>
+                                    </br>
+                                    </br>
+                                    <span class="project-link"><a href="https://terrencemm2.github.io/crystal-game/"
+                                            target="_blank"><i class="fas fa-gem"></i> View
+                                            Application</a></span> |
+                                    <span class="project-link"><a href="https://github.com/TerrenceMM2/crystal-game"
+                                            target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                </figcaption>
+                            </figure>
                         </div>
 
-                        <h4>Back-End</h4>
-                        
-                        <div class="skillContainer">
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="NodeJS" data-trigger="hover" src="./assets/images/icons/node.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Express" data-trigger="hover" src="./assets/images/icons/express.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="MySQL" data-trigger="hover" src="./assets/images/icons/mysql.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Sequelize" data-trigger="hover" src="./assets/images/icons/sequelize.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="MongoDB" data-trigger="hover" src="./assets/images/icons/mongo.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Mongoose" data-trigger="hover" src="./assets/images/icons/mongoose.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Handlebars" data-trigger="hover" src="./assets/images/icons/handlebars.png"></img>
+                        <div class="col-lg-6 col-md-6 col-sm-12 image">
+                            <figure class="imghvr-shutter-in-out-diag-2">
+                                <img class="img-fluid" src="assets/images/memory.png" alt="Mario Memory Screenshot">
+                                <figcaption>
+                                    Mario Memory
+                                    </br>
+                                    </br>
+                                    <span class="subcaption">Memory game featuring Nintendo's all-star cast.</span>
+                                    </br>
+                                    </br>
+                                    <span class="project-link"><a
+                                            href="https://terrencemm2.github.io/coursework15-memory-game/"
+                                            target="_blank"><i class="fas fa-gamepad"></i> View
+                                            Application</a></span>
+                                    |
+                                    <span class="project-link"><a
+                                            href="https://github.com/TerrenceMM2/coursework15-memory-game"
+                                            target="_blank">View Code <i class="fab fa-github"></i></a></span>
+                                </figcaption>
+                            </figure>
                         </div>
-
-                        <h4>Tools</h4>
-
-                        <div class="skillContainer">
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Git" data-trigger="hover" src="./assets/images/icons/git.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="GitHub" data-trigger="hover" src="./assets/images/icons/github.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="GitLab" data-trigger="hover" src="./assets/images/icons/gitlab.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Firebase" data-trigger="hover" src="./assets/images/icons/firebase.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Heroku" data-trigger="hover" src="./assets/images/icons/heroku.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="VS Code" data-trigger="hover" src="./assets/images/icons/vscode.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Eclipse" data-trigger="hover" src="./assets/images/icons/eclipse.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Oracel SQL Developer" data-trigger="hover" src="./assets/images/icons/oracle.png"></img>
-                        </div>
-
-                        <h4>Concepts</h4>
-
-                        <div class="skillContainer">
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="JSON" data-trigger="hover" src="./assets/images/icons/json.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="XML" data-trigger="hover" src="./assets/images/icons/xml.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="SSL Certificates" data-trigger="hover" src="./assets/images/icons/ssl-certificate.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Java KeyStores" data-trigger="hover" src="./assets/images/icons/keystore.png"></img>
-                            <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom" data-content="Identity & Access Management&#13SSO Protocols" data-trigger="hover" src="./assets/images/icons/iam.png"></img>
-                        </div>
-
-                        <h4>Soft Skills</h4>
-
-                        <div class="skillContainer">
-                            <ul>
-                                <li>Troubleshooting</li>
-                                <li>Public Speaking</li>
-                                <li>Organization</li>
-                                <li>Project Management</li>
-                            </ul>
-                        </div>
-
                     </div>
 
                 </div>
-            </main>
+            </div>
+        </main>
 
-            <main id="resume" class="content col-12 col-md-9 animated fadeIn faster">
+        <main id="skills" class="content col-12 col-md-9 animated fadeIn faster">
+            <div class="container">
+                <h3>Technical Skills</h3>
+
+                <hr>
+
                 <div class="container">
-                    <h3>Resume</h3>
+                    <h4>Front-End</h4>
 
-                    <hr>
+                    <div class="skillContainer">
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="HTML5" data-trigger="hover" src="./assets/images/icons/html.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="CSS" data-trigger="hover" src="./assets/images/icons/css.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Bootstrap" data-trigger="hover"
+                            src="./assets/images/icons/bootstrap.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="JavaScript" data-trigger="hover" src="./assets/images/icons/js.png"></img>
+                        <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="jQuery" data-trigger="hover"
+                            src="./assets/images/icons/jquery.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="React" data-trigger="hover" src="./assets/images/icons/react.png"></img>
+                    </div>
+
+                    <h4>Back-End</h4>
+
+                    <div class="skillContainer">
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="NodeJS" data-trigger="hover" src="./assets/images/icons/node.png"></img>
+                        <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="Express" data-trigger="hover"
+                            src="./assets/images/icons/express.png"></img>
+                        <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="MySQL" data-trigger="hover"
+                            src="./assets/images/icons/mysql.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Sequelize" data-trigger="hover"
+                            src="./assets/images/icons/sequelize.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="MongoDB" data-trigger="hover" src="./assets/images/icons/mongo.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Mongoose" data-trigger="hover" src="./assets/images/icons/mongoose.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Handlebars" data-trigger="hover"
+                            src="./assets/images/icons/handlebars.png"></img>
+                    </div>
+
+                    <h4>Tools</h4>
+
+                    <div class="skillContainer">
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Git" data-trigger="hover" src="./assets/images/icons/git.png"></img>
+                        <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            data-placement="bottom" data-content="GitHub" data-trigger="hover"
+                            src="./assets/images/icons/github.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="GitLab" data-trigger="hover" src="./assets/images/icons/gitlab.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Firebase" data-trigger="hover" src="./assets/images/icons/firebase.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Heroku" data-trigger="hover" src="./assets/images/icons/heroku.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="VS Code" data-trigger="hover" src="./assets/images/icons/vscode.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Eclipse" data-trigger="hover" src="./assets/images/icons/eclipse.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Oracel SQL Developer" data-trigger="hover"
+                            src="./assets/images/icons/oracle.png"></img>
+                    </div>
+
+                    <h4>Concepts</h4>
+
+                    <div class="skillContainer">
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="JSON" data-trigger="hover" src="./assets/images/icons/json.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="XML" data-trigger="hover" src="./assets/images/icons/xml.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="SSL Certificates" data-trigger="hover"
+                            src="./assets/images/icons/ssl-certificate.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Java KeyStores" data-trigger="hover"
+                            src="./assets/images/icons/keystore.png"></img>
+                        <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                            data-content="Identity & Access Management&#13SSO Protocols" data-trigger="hover"
+                            src="./assets/images/icons/iam.png"></img>
+                    </div>
+
+                    <h4>Soft Skills</h4>
+
+                    <div class="skillContainer">
+                        <ul>
+                            <li>Troubleshooting</li>
+                            <li>Public Speaking</li>
+                            <li>Organization</li>
+                            <li>Project Management</li>
+                        </ul>
+                    </div>
 
                 </div>
-            </main>
 
-            <main id="contact" class="content col-12 col-md-9 animated fadeIn faster">
-                <div class="container">
-                    <h3>Contact</h3>
+            </div>
+        </main>
 
-                    <hr>
+        <main id="resume" class="content col-12 col-md-9 animated fadeIn faster">
+            <div class="container">
+                <h3>Resume</h3>
 
-                    <form action="https://formspree.io/terrencemm2@gmail.com" method="POST">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <div class="row">
-                                <div class="col-sm-6 col-12">
-                                    <input class="form-control" type="text" id="name" name="firstname"
-                                        placeholder="First Name" required>
-                                </div>
-                                <div class="col-sm-6 d-none d-sm-flex">
+                <hr>
+
+            </div>
+        </main>
+
+        <main id="contact" class="content col-12 col-md-9 animated fadeIn faster">
+            <div class="container">
+                <h3>Contact</h3>
+
+                <hr>
+
+                <form action="https://formspree.io/terrencemm2@gmail.com" method="POST">
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <div class="row">
+                            <div class="col-sm-6 col-12">
+                                <input class="form-control" type="text" id="name" name="firstname"
+                                    placeholder="First Name" required>
+                            </div>
+                            <div class="col-sm-6 d-none d-sm-flex">
+                                <input class="form-control" type="text" id="name" name="lastname"
+                                    placeholder="Last Name">
+                            </div>
+                            <div class="row d-sm-none m-auto pt-3 w-100">
+                                <div class="col-12 d-sm-none">
                                     <input class="form-control" type="text" id="name" name="lastname"
                                         placeholder="Last Name">
                                 </div>
-                                <div class="row d-sm-none m-auto pt-3 w-100">
-                                    <div class="col-12 d-sm-none">
-                                        <input class="form-control" type="text" id="name" name="lastname"
-                                            placeholder="Last Name">
-                                    </div>
-                                </div>
                             </div>
                         </div>
-                        <div class="form-group">
-                            <label for="email">E-mail Address</label>
-                            <input class="form-control" type="email" id="email" name="email"
-                                placeholder='E.g. "john.smith@aol.com"' required>
-                        </div>
-                        <div class="form-group">
-                            <label for="text">Message</label>
-                            <textarea name="message" class="form-control" id="text" rows="7"
-                                placeholder="How's it going?" required></textarea>
-                        </div>
-                        <button id="submit" type="submit" class="btn submit hvr-grow-shadow"
-                            value="Submit">Submit</button>
-                        <small>Powered by <a href="https://formspree.io/" target="_blank"
-                                alt="Formspree Link">Formspree</a></small>
-                    </form>
-                </div>
-            </main>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">E-mail Address</label>
+                        <input class="form-control" type="email" id="email" name="email"
+                            placeholder='E.g. "john.smith@aol.com"' required>
+                    </div>
+                    <div class="form-group">
+                        <label for="text">Message</label>
+                        <textarea name="message" class="form-control" id="text" rows="7" placeholder="How's it going?"
+                            required></textarea>
+                    </div>
+                    <button id="submit" type="submit" class="btn submit hvr-grow-shadow" value="Submit">Submit</button>
+                    <small>Powered by <a href="https://formspree.io/" target="_blank"
+                            alt="Formspree Link">Formspree</a></small>
+                </form>
+            </div>
+        </main>
 
-            <footer class="d-block d-md-none position-relative footer">
-                <p>&copy; 2019</p>
-            </footer>
+        <footer class="d-block d-md-none position-relative footer">
+            <p>&copy; 2019</p>
+        </footer>
 
-        </div>
+    </div>
     </div>
 
 

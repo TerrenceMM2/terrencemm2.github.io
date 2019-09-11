@@ -6,7 +6,6 @@
          url('../fonts/cutivemono-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -15,7 +14,6 @@
          url('../fonts/majormonodisplay-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 @font-face {
@@ -24,5 +22,4 @@
          url('../fonts/megrim-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
