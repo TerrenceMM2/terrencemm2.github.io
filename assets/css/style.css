@@ -285,6 +285,10 @@ figcaption h4 {
 }
 
 /* CONTACT */
+form {
+    padding-bottom: 1rem;
+}
+
 .form-control,
 .form-control:hover,
 .form-control:focus {
