@@ -20,6 +20,8 @@ body:hover {
     color: #FFF;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: -1px;
+    line-height: 1rem;
+    width: 100vw;
 }
 
 header {
@@ -72,6 +74,7 @@ a:hover {
 .nav-item {
     margin: 2vh 0;
     font-size: 1.25rem;
+    line-height: 1.5rem;
 }
 
 .nav-link {
@@ -140,6 +143,18 @@ footer {
     -webkit-transition: color 0.25s ease;
 }
 
+.icon {
+    font-size: 1rem;
+    color: #FFF;
+    transition: all 0.25s ease-out;
+}
+
+.icon:hover {
+    font-size: 1rem;
+    color: var(--teal);
+    transition: all 0.25s ease-out;
+}
+
 /* ABOUT */
 #bio-pic-text {
     color: var(--teal);
@@ -151,9 +166,13 @@ footer {
     width: 100%;
 }
 
+#expand-all {
+    float: right;
+}
+
 .accordion {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 1rem;
+    line-height: 1rem;
 }
 
 pre {
@@ -161,7 +180,7 @@ pre {
     margin: 0;
     font-family: 'Cutive Mono', monospace;
     letter-spacing: -1px;
-    font-size: 18px;
+    font-size: 1rem;
     display: inline;
 }
 
@@ -169,7 +188,7 @@ pre {
     font-family: 'FontAwesome';
     color: var(--teal); 
     content: "\f107";
-    margin-right: 5px;
+    margin-right: 0px;
     float: left;
     width: 15px !important;
 }
@@ -177,7 +196,8 @@ pre {
 .accordion .header.collapsed:before {
     content: "\f105";
     color: var(--teal);
-    width: 12px;
+    width: 15px;
+    margin: 0px;
 }
 
 /* PORTFOLIO */
@@ -359,6 +379,10 @@ form {
 
     .hvr-underline-from-left:before {
         height: 0px;
+    }
+
+    #expand-all {
+        float: none;
     }
 
     .carousel-item>img {
