@@ -184,16 +184,9 @@ pre {
     display: inline;
 }
 
-.icon::before {
-    display: inline-block;
-    font-style: normal;
-    font-variant: normal;
-    text-rendering: auto;
-    -webkit-font-smoothing: antialiased;
-  }
-
 .accordion .header:before {
     font-family: 'FontAwesome';
+    font-weight: 900;
     color: var(--teal); 
     content: "\f107";
     margin-right: 0px;
