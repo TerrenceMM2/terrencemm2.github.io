@@ -196,6 +196,7 @@ pre {
 
 .accordion .header.collapsed:before {
     content: "\f105";
+    font-weight: 900;
     color: var(--teal);
     width: 15px;
     margin: 0px;
