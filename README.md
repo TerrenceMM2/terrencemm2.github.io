@@ -11,6 +11,9 @@ Live Link: https://terrencemm2.github.io
 - [Imagehover.css](http://imagehover.io/)
 - [Formspree](https://formspree.io/)
 
+## Screenshot
+![Portfolio Screenshot](../media/portfolio-screenshot.png?raw=true)
+
 ## Contact  
 - Name: Terrence Mahnken
 - E-mail: terrencemm2@gmail.com
