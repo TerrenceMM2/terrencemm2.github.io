@@ -1,5 +1,5 @@
 # Personal Portfolio <img align="right" width="100" height="100" src="../media/icon.png">
-Live Link: https://terrencemm2.github.io  
+Live Link: https://terrence.codes  
 
 ## Technologies Used  
 - HTML, CSS, & JavaScript
@@ -10,6 +10,9 @@ Live Link: https://terrencemm2.github.io
 - [Animate.css](https://daneden.github.io/animate.css/)
 - [Imagehover.css](http://imagehover.io/)
 - [Formspree](https://formspree.io/)
+
+## Screenshot
+![Portfolio Screenshot](../media/portfolio-screenshot.png?raw=true)
 
 ## Contact  
 - Name: Terrence Mahnken
