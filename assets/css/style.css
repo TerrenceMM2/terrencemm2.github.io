@@ -101,6 +101,7 @@ a:hover {
 }
 
 #portfolio,
+#publications,
 #contact,
 #skills,
 #resume {
@@ -254,17 +255,34 @@ figcaption h4 {
     color: #FFF;
 }
 
+/* PUBLICATIONS */
+.pub-title {
+    margin-bottom: 1rem;
+}
+
+.pub-container {
+    margin: 1em 0;
+}
+
+.pub-body {
+    color: white;
+}
+
+.thumbnail {
+    height: 100%;
+}
+
 /* SKILLS */
 .skillContainer {
     display: flex;
     flex-wrap: wrap;
 }
 
-#invert {
+.invert {
     filter: invert(1) saturate(0);
 }
 
-#invert:hover {
+.invert:hover {
     filter: invert(0) saturate(1);
 }
 

@@ -7,7 +7,10 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-161972620-1"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
         gtag('js', new Date());
 
         gtag('config', 'UA-161972620-1');
@@ -45,11 +48,14 @@
 
                     <div class="row">
                         <ul class="nav navbar text-center col-md-auto">
-                            <li class="col-12 col-md-12 nav-item">
+                            <li class="col-6 col-md-12 nav-item">
                                 <div class="hvr-underline-from-left nav-link" id="aboutLink">About</div>
                             </li>
                             <li class="col-6 col-md-12 nav-item">
                                 <div class="hvr-underline-from-left nav-link" id="portfolioLink">Portfolio</div>
+                            </li>
+                            <li class="col-6 col-md-12 nav-item">
+                                <div class="hvr-underline-from-left nav-link" id="publicationsLink">Publications</div>
                             </li>
                             <li class="col-6 col-md-12 nav-item">
                                 <div class="hvr-underline-from-left nav-link" id="skillsLink">Skills</div>
@@ -65,12 +71,14 @@
 
                     <div class="d-none d-md-block row">
                         <footer>
-                            <p>&copy; 2019 | <a href="https://github.com/TerrenceMM2" target="_blank"
+                            <p>&copy; <span class="copy-date"></span> | <a href="https://github.com/TerrenceMM2" target="_blank"
                                     alt="GitHub profile link"><i class="icon fab fa-github-square"></i></a> <a
                                     href="https://www.linkedin.com/in/terrencemahnken/" target="_blank"
                                     alt="LinkedIn profile link"><i class="icon fab fa-linkedin"></i></a> <a
                                     href="https://twitter.com/TerrenceMahnken" target="_blank"
-                                    alt="Twitter profile link"><i class="icon fab fa-twitter-square"></i></a></p>
+                                    alt="Twitter profile link"><i class="icon fab fa-twitter-square"></i></a> <a
+                                    href="https://medium.com/@terrencemm2" target="_blank" alt="Medium profile link"><i
+                                        class="icon fab fa-medium"></i></a></p>
                             <p><a href="mailto:terrencemm2@gmail.com?subject=Hey, Terrence!"><i
                                         class="fas fa-envelope fa-xs"></i> terrencemm2@gmail.com</a></p>
                         </footer>
@@ -103,7 +111,7 @@
                                     <div>
                                         <pre>
     "name": "Terrence Mahnken",
-    "age": 31,
+    "age": <span id="age"></span>,
     "hometown": "Punta Gorda, FL",
     "residence": "Mount Juliet, TN",</pre>
                                         <div id="child1">
@@ -126,7 +134,7 @@
                                                                 data-target="#collapseFour" aria-expanded="false"
                                                                 aria-controls="collapseFour">
                                                                 <pre>
-      {</pre>
+    0: {</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -147,7 +155,7 @@
                                                         <div class="mb-0">
                                                             <div class="collapsed">
                                                                 <pre>
-        },</pre>
+         },</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -159,7 +167,7 @@
                                                                 data-target="#collapseFive" aria-expanded="false"
                                                                 aria-controls="collapseFive">
                                                                 <pre>
-      {</pre>
+    1: {</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -177,7 +185,7 @@
                                                         <div class="mb-0">
                                                             <div class="collapsed">
                                                                 <pre>
-        },</pre>
+         },</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -212,7 +220,7 @@
                                                                 data-target="#collapseSeven" aria-expanded="false"
                                                                 aria-controls="collapseSeven">
                                                                 <pre>
-      {</pre>
+    0: {</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -222,14 +230,14 @@
                                                             <pre>
             "name": "Helene",
             "role": "wife",
-            "yearsTogether": 12</pre>
+            "yearsTogether": <span id="marriage"></span></pre>
                                                         </div>
                                                     </div>
                                                     <div>
                                                         <div class="mb-0">
                                                             <div class="collapsed">
                                                                 <pre>
-        },</pre>
+         },</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -241,7 +249,7 @@
                                                                 data-target="#collapseEight" aria-expanded="false"
                                                                 aria-controls="collapseEight">
                                                                 <pre>
-      {</pre>
+    1: {</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -251,14 +259,14 @@
                                                             <pre>
             "name": "Everett",
             "role": "son",
-            "age": 5</pre>
+            "age": <span id="ev"></span></pre>
                                                         </div>
                                                     </div>
                                                     <div>
                                                         <div class="mb-0">
                                                             <div class="collapsed">
                                                                 <pre>
-        },</pre>
+         },</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -270,7 +278,7 @@
                                                                 data-target="#collapseNine" aria-expanded="false"
                                                                 aria-controls="collapseNine">
                                                                 <pre>
-      {</pre>
+    2: {</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -281,14 +289,14 @@
             "name": "Alfie",
             "role": "dog",
             "type": "Mix - Sheltie/Corgi",
-            "age": 6</pre>
+            "age": <span id="alfie"></span></pre>
                                                         </div>
                                                     </div>
                                                     <div>
                                                         <div class="mb-0">
                                                             <div class="collapsed">
                                                                 <pre>
-        },</pre>
+         },</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -300,7 +308,7 @@
                                                                 data-target="#collapseTen" aria-expanded="false"
                                                                 aria-controls="collapseTen">
                                                                 <pre>
-      {</pre>
+    3: {</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -311,14 +319,14 @@
             "name": "Hunter",
             "role": "dog",
             "type": "Golden-Doodle",
-            "age": 3</pre>
+            "age": <span id="hunter"></span></pre>
                                                         </div>
                                                     </div>
                                                     <div>
                                                         <div class="mb-0">
                                                             <div class="collapsed">
                                                                 <pre>
-        },</pre>
+         },</pre>
                                                             </div>
                                                         </div>
                                                     </div>
@@ -348,16 +356,16 @@
                                                 data-parent="#child3">
                                                 <div>
                                                     <pre>
-        "family time",
-        "reading",
-        "video games",
-        "home projects"</pre>
+        0: "family time",
+        1: "reading",
+        2: "video games",
+        3: "home projects"</pre>
                                                 </div>
                                             </div>
                                         </div>
                                         <pre>
     ],
-    "yearsInIT": 6,
+    "yearsInIT": <span id="it"></span>,
     "image" : </pre>
                                         <pre id="bio-pic-text" rel="popover" data-toggle="popover"
                                             data-placement="right"
@@ -381,6 +389,18 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </main>
+
+            <main id="publications" class="content col-12 col-md-9 animated fadeIn faster">
+                <div class="container">
+                    <h3>Publications</h3>
+                        
+                    <hr>
+
+                    <div class="container" id="pubContainer">
+                        <a href="https://medium.com/feed/@TerrenceMM2" target="_blank"><h4>Medium Feed</h4></a>
                     </div>
                 </div>
             </main>
@@ -511,7 +531,7 @@
                                 src="./assets/images/icons/bootstrap.png"></img>
                             <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
                                 data-content="JavaScript" data-trigger="hover" src="./assets/images/icons/js.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            <img class="invert skill-icon" data-container="body" data-toggle="popover"
                                 data-placement="bottom" data-content="jQuery" data-trigger="hover"
                                 src="./assets/images/icons/jquery.png"></img>
                             <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
@@ -526,10 +546,10 @@
                         <div class="skillContainer">
                             <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
                                 data-content="NodeJS" data-trigger="hover" src="./assets/images/icons/node.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            <img class="invert skill-icon" data-container="body" data-toggle="popover"
                                 data-placement="bottom" data-content="Express" data-trigger="hover"
                                 src="./assets/images/icons/express.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            <img class="invert skill-icon" data-container="body" data-toggle="popover"
                                 data-placement="bottom" data-content="MySQL" data-trigger="hover"
                                 src="./assets/images/icons/mysql.png"></img>
                             <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
@@ -551,9 +571,11 @@
                         <h4>Tools</h4>
 
                         <div class="skillContainer">
+                            <img class="invert skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
+                                data-content="AWS" data-trigger="hover" src="./assets/images/icons/aws.png"></img>
                             <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
                                 data-content="Git" data-trigger="hover" src="./assets/images/icons/git.png"></img>
-                            <img id="invert" class="skill-icon" data-container="body" data-toggle="popover"
+                            <img class="invert skill-icon" data-container="body" data-toggle="popover"
                                 data-placement="bottom" data-content="GitHub" data-trigger="hover"
                                 src="./assets/images/icons/github.png"></img>
                             <img class="skill-icon" data-container="body" data-toggle="popover" data-placement="bottom"
@@ -703,7 +725,8 @@
                             </div>
                             <ul>
                                 <li>
-                                    Mentor 25-50 full-stack development students per 6-month cohort and manage student work.
+                                    Mentor 25-50 full-stack development students per 6-month cohort and manage student
+                                    work.
                                 </li>
                             </ul>
                         </div>
@@ -814,17 +837,20 @@
             </main>
 
             <footer class="d-block d-md-none position-relative footer">
-                <p>&copy; 2019 | <a href="https://github.com/TerrenceMM2" target="_blank" alt="GitHub profile link"><i
+                <p>&copy; <span class="copy-date"></span> | <a href="https://github.com/TerrenceMM2" target="_blank" alt="GitHub profile link"><i
                             class="icon fab fa-github-square"></i></a> <a
                         href="https://www.linkedin.com/in/terrencemahnken/" target="_blank"
                         alt="LinkedIn profile link"><i class="icon fab fa-linkedin"></i></a> <a
                         href="https://twitter.com/TerrenceMahnken" target="_blank" alt="Twitter profile link"><i
-                            class="icon fab fa-twitter-square"></i></a></p>
+                            class="icon fab fa-twitter-square"></i></a> <a
+                            href="https://medium.com/@terrencemm2" target="_blank" alt="Medium profile link"><i
+                                class="icon fab fa-medium"></i></a></p>
                 <p><a href="mailto:terrencemm2@gmail.com?subject=Hey, Terrence!"><i class="fas fa-envelope fa-xs"></i>
                         terrencemm2@gmail.com</a></p>
             </footer>
 
         </div>
+
     </div>
 
 
@@ -835,6 +861,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
     </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js" integrity="sha256-4iQZ6BVL4qNKlQ27TExEhBN1HFPvAvAMbFavKKosSWQ=" crossorigin="anonymous"></script>
     <script src="assets/javascript/custom.js"></script>
 </body>
 

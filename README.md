@@ -10,6 +10,8 @@ Live Link: https://terrence.codes
 - [Animate.css](https://daneden.github.io/animate.css/)
 - [Imagehover.css](http://imagehover.io/)
 - [Formspree](https://formspree.io/)
+- [Moment.js](https://momentjs.com/)
+- [rss2json](https://rss2json.com/)
 
 ## Screenshot
 ![Portfolio Screenshot](../media/portfolio-screenshot.png?raw=true)
