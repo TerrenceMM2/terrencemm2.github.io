@@ -149,13 +149,13 @@ footer {
 }
 
 .icon {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #FFF;
     transition: all 0.25s ease-out;
 }
 
 .icon:hover {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: var(--teal);
     transition: all 0.25s ease-out;
 }
@@ -173,6 +173,7 @@ footer {
 
 #expand-all {
     float: right;
+    cursor: pointer;
 }
 
 .accordion {
@@ -195,7 +196,7 @@ pre {
 .accordion .header:before {
     font-family: 'Font Awesome 5 Free';
     font-weight: 900;
-    color: var(--teal); 
+    color: var(--teal);
     content: "\f107";
     margin-right: 0px;
     float: left;
