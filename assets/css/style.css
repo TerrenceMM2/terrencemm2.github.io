@@ -139,11 +139,11 @@ footer {
 }
 
 ::-webkit-scrollbar-track {
-    background-color: #6c757d;
+    background-color: #343a40;
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #333;
+    background-color: #585D62;
     border-radius: 10px;
     -webkit-transition: color 0.25s ease;
 }
@@ -178,7 +178,7 @@ footer {
 
 .accordion {
     font-size: 1rem;
-    line-height: 1rem;
+    line-height: initial;
 }
 
 pre {
@@ -322,6 +322,10 @@ figcaption h4 {
 }
 
 /* RESUME */
+#resume-container {
+    line-height: initial;
+}
+
 #resume-container p {
     margin: 0;
 }
