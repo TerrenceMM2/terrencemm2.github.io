@@ -18,9 +18,9 @@ body:hover {
 
 .wrapper {
     color: #FFF;
-    font-family: 'Cutive Mono', monospace;
-    letter-spacing: -1px;
-    line-height: 1rem;
+    font-family: 'IBM Plex Mono', monospace;
+    line-height: 1.25rem;
+    letter-spacing: 1px;
     width: 100vw;
 }
 
@@ -85,6 +85,10 @@ a:hover {
 #logo:hover,
 #logo-name:hover {
     cursor: pointer;
+}
+
+#logo-name {
+    letter-spacing: initial;
 }
 
 #nav {
@@ -179,10 +183,13 @@ footer {
 pre {
     color: #FFF;
     margin: 0;
-    font-family: 'Cutive Mono', monospace;
-    letter-spacing: -1px;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 1px;
+    line-height: 1.2rem;
     font-size: 1rem;
     display: inline;
+    white-space: pre-wrap;
+    overflow-wrap: break-word;
 }
 
 .accordion .header:before {
@@ -268,10 +275,6 @@ figcaption h4 {
     color: white;
 }
 
-.thumbnail {
-    height: 100%;
-}
-
 /* SKILLS */
 .skillContainer {
     display: flex;
@@ -300,8 +303,8 @@ figcaption h4 {
 
 .popover-body {
     color: #FFF;
-    font-family: 'Cutive Mono', monospace;
-    letter-spacing: -1px;
+    font-family: 'IBM Plex Mono', monospace;
+    letter-spacing: 1px;
 }
 
 .popover {

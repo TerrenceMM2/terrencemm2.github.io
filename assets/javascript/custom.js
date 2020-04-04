@@ -92,7 +92,7 @@ $(document).ready(function () {
 
     $.get("https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40TerrenceMM2").then(response => {
         response.items.forEach(item => {
-            $("#pubContainer").append(`<a href="${item.link}" target="_blank"><div class="row pub-container"><img class="thumbnail col-12 col-md-3" src="${item.thumbnail}" alt="Article Thumbnail"/><div class="col-12 col-md-9"><h4 class="pub-title">${item.title}</h4><p class="pub-body">Published: ${moment(item.pubDate).format("dddd, MMMM Do YYYY, h:mm:ss A")}</p><p class="pub-body">Tags: ${item.categories.map(cat => cat + " ").join("")}</p></div></div></a>`)
+            $("#pubContainer").append(`<a href="${item.link}" target="_blank"><div class="row pub-container"><img class="thumbnail col-12 col-md-3" src="${item.thumbnail.includes("https://medium.com/_/") ? "./assets/images/icons/medium.png" : item.thumbnail}" alt="Article Thumbnail"/><div class="col-12 col-md-9"><h4 class="pub-title">${item.title}</h4><p class="pub-body">Published: ${moment(item.pubDate).format("dddd, MMMM Do YYYY, h:mm:ss A")}</p><p class="pub-body">Tags: ${item.categories.map(cat => cat + " ").join("")}</p></div></div></a>`)
         })
     }).catch(error => {
         console.log(error);
