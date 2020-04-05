@@ -14,7 +14,7 @@ Live Link: https://terrence.codes
 - [rss2json](https://rss2json.com/)
 
 ## Screenshot
-![Portfolio Screenshot](../media/portfolio-screenshot.png?raw=true)
+![Portfolio Screenshot](../media/screenshot.png?raw=true)
 
 ## Contact  
 - Name: Terrence Mahnken
