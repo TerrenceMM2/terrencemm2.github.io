@@ -105,5 +105,6 @@ $(document).ready(function () {
     $("#ev").text(moment().diff('2014-09-07', 'years'))
     $("#alfie").text(moment().diff('2012-07-01', 'years'))
     $("#hunter").text(moment().diff('2015-03-01', 'years'))
+    $("#ki").text(moment().diff('2018-07-01', 'years'))
 
 });
