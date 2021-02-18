@@ -17,8 +17,8 @@ body:hover {
 }
 
 .wrapper {
-    color: #FFF;
-    font-family: 'IBM Plex Mono', monospace;
+    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
     line-height: 1.25rem;
     letter-spacing: 1px;
     width: 100vw;
@@ -30,7 +30,7 @@ header {
 
 h1 {
     width: 100%;
-    font-family: 'Megrim', cursive;
+    font-family: "Megrim", cursive;
     font-size: 10vw;
     color: #000;
     letter-spacing: -3.8vw;
@@ -39,18 +39,20 @@ h1 {
 }
 
 h2 {
-    font-family: 'Major Mono Display', monospace;
+    font-family: "Major Mono Display", monospace;
     font-size: 2.5vw;
     margin-top: -3vh;
-    color: #FFF;
+    color: #fff;
 }
 
-h3, h4, h5 {
+h3,
+h4,
+h5 {
     color: var(--teal);
 }
 
 hr {
-    border-color: #FFF;
+    border-color: #fff;
 }
 
 a {
@@ -119,7 +121,7 @@ a:hover {
 
 .nav-link,
 .nav-link:hover {
-    color: #FFF;
+    color: #fff;
 }
 
 .hvr-underline-from-left:before {
@@ -143,14 +145,14 @@ footer {
 }
 
 ::-webkit-scrollbar-thumb {
-    background-color: #585D62;
+    background-color: #585d62;
     border-radius: 10px;
     -webkit-transition: color 0.25s ease;
 }
 
 .icon {
     font-size: 1.25rem;
-    color: #FFF;
+    color: #fff;
     transition: all 0.25s ease-out;
 }
 
@@ -182,9 +184,9 @@ footer {
 }
 
 pre {
-    color: #FFF;
+    color: #fff;
     margin: 0;
-    font-family: 'IBM Plex Mono', monospace;
+    font-family: "IBM Plex Mono", monospace;
     letter-spacing: 1px;
     line-height: 1.2rem;
     font-size: 1rem;
@@ -194,7 +196,7 @@ pre {
 }
 
 .accordion .header:before {
-    font-family: 'Font Awesome 5 Free';
+    font-family: "Font Awesome 5 Free";
     font-weight: 900;
     color: var(--teal);
     content: "\f107";
@@ -222,17 +224,17 @@ img {
 }
 
 [class*=" imghvr-"] figcaption,
-[class^=imghvr-] figcaption,
+[class^="imghvr-"] figcaption,
 [class*=" imghvr-"],
-[class^=imghvr-],
+[class^="imghvr-"],
 [class*=" imghvr-shutter-in-"]:after,
 [class*=" imghvr-shutter-in-"]:before,
-[class^=imghvr-shutter-in-]:after,
-[class^=imghvr-shutter-in-]:before {
+[class^="imghvr-shutter-in-"]:after,
+[class^="imghvr-shutter-in-"]:before {
     background-color: var(--teal);
 }
 
-[class^=imghvr-] figcaption {
+[class^="imghvr-"] figcaption {
     padding: 10px;
 }
 
@@ -260,7 +262,7 @@ figcaption h4 {
     font-weight: initial;
     line-height: initial;
     position: static;
-    color: #FFF;
+    color: #fff;
 }
 
 /* PUBLICATIONS */
@@ -294,7 +296,7 @@ figcaption h4 {
     width: 50px;
     height: 50px;
     object-fit: contain;
-    margin: .25rem 1rem 3.5rem 1rem;
+    margin: 0.25rem 1rem 3.5rem 1rem;
 }
 
 .skill-icon:hover {
@@ -302,9 +304,15 @@ figcaption h4 {
     transition: all 0.25s ease-out;
 }
 
+#certification {
+    width: 100px;
+    height: 100px;
+    margin: 0.25rem 1rem 5rem 1rem;
+}
+
 .popover-body {
-    color: #FFF;
-    font-family: 'IBM Plex Mono', monospace;
+    color: #fff;
+    font-family: "IBM Plex Mono", monospace;
     letter-spacing: 1px;
 }
 
@@ -343,7 +351,7 @@ form {
 .form-control:hover,
 .form-control:focus {
     background-color: transparent;
-    color: #FFF;
+    color: #fff;
 }
 
 .form-control:focus {
@@ -381,9 +389,9 @@ form {
 
     h5 {
         background-color: var(--teal);
-        color: #FFF;
+        color: #fff;
         font-weight: bold;
-        padding: .5rem;
+        padding: 0.5rem;
     }
 
     #nav {
@@ -415,7 +423,7 @@ form {
         float: none;
     }
 
-    .carousel-item>img {
+    .carousel-item > img {
         filter: grayscale(100%);
     }
 
@@ -435,7 +443,6 @@ form {
         font-size: 1rem;
     }
 }
-
 
 @media only screen and (max-width: 575px) {
     #portfolio-footer {
