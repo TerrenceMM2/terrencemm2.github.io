@@ -320,6 +320,7 @@ figcaption h4 {
 .popover {
   background-color: transparent;
   border-color: var(--teal);
+  max-width: 350px;
 }
 
 .bs-popover-bottom .arrow::after {
