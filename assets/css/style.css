@@ -173,7 +173,7 @@ footer {
   width: 100%;
 }
 
-#expand-all {
+#expand-collapse {
   float: right;
   cursor: pointer;
 }

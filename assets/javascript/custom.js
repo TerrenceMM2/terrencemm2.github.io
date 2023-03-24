@@ -1,4 +1,6 @@
 $(document).ready(function () {
+  let isExpanded = false
+
   $("#aboutLink").on("click", function () {
     $("#about").show();
     $("#portfolio").hide();
@@ -80,8 +82,16 @@ $(document).ready(function () {
     },
   });
 
-  $("#expand-all").on("click", function () {
-    $("#accordion .collapse").collapse("show");
+  $("#expand-collapse").on("click", function () {
+    if (isExpanded) {
+      $("#expand-collapse").text("Expand All")
+      $("#accordion .collapse").collapse("hide");
+      isExpanded = false
+    } else {
+      $("#expand-collapse").text("Collapse All")
+      $("#accordion .collapse").collapse("show");
+      isExpanded = true
+    }
   });
 
   $(function () {
