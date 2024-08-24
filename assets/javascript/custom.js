@@ -1,5 +1,5 @@
 $(document).ready(function () {
-  let isExpanded = false
+  let isExpanded = false;
 
   $("#aboutLink").on("click", function () {
     $("#about").show();
@@ -84,13 +84,13 @@ $(document).ready(function () {
 
   $("#expand-collapse").on("click", function () {
     if (isExpanded) {
-      $("#expand-collapse").text("Expand All")
+      $("#expand-collapse").text("Expand All");
       $("#accordion .collapse").collapse("hide");
-      isExpanded = false
+      isExpanded = false;
     } else {
-      $("#expand-collapse").text("Collapse All")
+      $("#expand-collapse").text("Collapse All");
       $("#accordion .collapse").collapse("show");
-      isExpanded = true
+      isExpanded = true;
     }
   });
 
@@ -134,7 +134,7 @@ $(document).ready(function () {
   $("#marriage").text(moment().diff("2007-07-27", "years"));
   $("#it").text(moment().diff("2013-09-14", "years"));
   $("#ev").text(moment().diff("2014-09-07", "years"));
-  $("#alfie").text(moment().diff("2012-07-01", "years"));
   $("#hunter").text(moment().diff("2015-03-01", "years"));
   $("#ki").text(moment().diff("2018-07-01", "years"));
+  $("#ashby").text(moment().diff("2021-07-01", "years"));
 });
