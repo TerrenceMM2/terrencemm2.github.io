@@ -1,7 +1,9 @@
-# Personal Portfolio <img align="right" width="100" height="100" src="../media/icon.png">
-Live Link: https://terrence.codes  
+# Personal Portfolio <img align="right" width="100" height="100" src="./assets/images/bio_pic.jpg" />
 
-## Technologies Used  
+Live Link: https://terrence.codes
+
+## Technologies Used
+
 - HTML, CSS, & JavaScript
 - [jQuery](https://jquery.com/)
 - [Bootstrap](https://getbootstrap.com/)
@@ -14,9 +16,11 @@ Live Link: https://terrence.codes
 - [rss2json](https://rss2json.com/)
 
 ## Screenshot
+
 ![Portfolio Screenshot](../media/screenshot.png?raw=true)
 
-## Contact  
+## Contact
+
 - Name: Terrence Mahnken
 - E-mail: terrencemm2@gmail.com
 - LinkedIn: [linkedin.com/in/terrencemahnken/](https://www.linkedin.com/in/terrencemahnken/)
